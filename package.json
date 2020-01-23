@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "nodeJS e React no Front-end e futuramente usando servicos do watson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agmar Torres",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgmarTorres/React-NodeJs-Watson.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react",
+    "IA"
+  ],
+  "bugs": {
+    "url": "https://github.com/AgmarTorres/React-NodeJs-Watson/issues"
+  },
+  "homepage": "https://github.com/AgmarTorres/React-NodeJs-Watson#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
