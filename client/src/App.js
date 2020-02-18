@@ -6,13 +6,24 @@ import './App.css';
 class App extends React.Component {
   constructor(props){
     super(props);
+  
     axios
     .get('/postagens')
     .then(resultados => console.log(resultados))
     .catch(function(error){
       console.log(error)
     })
+    
+    axios
+    .get('/comentarios/teste ')
+    .then(resultados => console.log(resultados))
+    .catch(function(error){
+      console.log(error)
+    })
+  
+  
   }
+
   render(){
     return (
       <div className="App">
